@@ -129,9 +129,6 @@ export const LoginModal: React.FC<LoginModalProps> = ({
               <span className="text-[11px] font-semibold text-slate-500 tracking-wide uppercase">
                 Financial Management System
               </span>
-              <h1 className="text-xl font-bold text-slate-900 tracking-tight">
-                {currentSchool.name}
-              </h1>
               {currentSchool.motto && (
                 <p className="text-xs text-slate-500 font-normal">
                   {currentSchool.motto}
